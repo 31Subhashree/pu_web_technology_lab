@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Warning</title>
+        <style>
+            #blink {
+                color: black;
+                font-size: 75px;
+            }
+        </style>
+    </head>
+    
+    <body bgcolor="red">
+        <p align="center">
+            <span id="blink"><b>WARNING</b></span>
+        </p>
+        <script>
+            var blink = document.getElementById("blink");
+            setInterval(function(){
+                if (blink.style.opacity == 0){
+                    blink.style.opacity =1;
+                }else{
+                    blink.style.opacity=0;
+                }
+            },1000);
+        </script>
+        <br><br>
+        <h2> 
+            <marquee behavior="Scrolling" direction="right">Read the Message</marquee>
+        </h2>
+    </body>
+</html>
