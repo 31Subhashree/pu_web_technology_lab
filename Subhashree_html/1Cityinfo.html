@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #blink {
+                color: black;
+                font-size: 75px;
+            }
+        </style>
+    </head>
+    <body align="center">
+        <h1 style="color: blue;"><b>BERHAMPUR</b></h1>
+        <h3 style="color:darkcyan">Giri Market</h3>
+        <h3 style="color:darkslategrey">Pani tanki square</h3>
+        <h3 style="color:lightseagreen">Annapurna Market</h3>
+        <h3 style="color: cyan">Rangeilunda</h3>
+        <p align="center">
+            <span id="blink"><b>Ravenshaw University</b></span>
+        </p>
+        <script>
+            var blink = document.getElementById("blink");
+            setInterval(function(){
+                if (blink.style.opacity == 0){
+                    blink.style.opacity =1;
+                }else{
+                    blink.style.opacity=0;
+                }
+            },1000);
+        </script>
+        <br><br>
+        <h2> 
+            <marquee behavior="Scrolling" direction="right">Hey, there!!!!</marquee>
+        </h2>
+    </body>
+</html>
