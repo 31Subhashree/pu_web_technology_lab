@@ -1,13 +1,95 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    </head>
-    <body>
-        <ol>
-            <li><a href="1Cityinfo.html" >Exercise-1 Date:12-10-2023</a></li>
-            <li><a href="2linesColor.html" >Exercise-2 Date:12-10-2023</a></li>
-            <li><a href="3population.html" >Exercise-3 Date:14-09-2023</a></li>
-        </ol>
-        <!-- <a href="" -->
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhashree Priyadarshini Sahu | Laboratory Experiments Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.experiment-card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: #0074cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Subhashree Priyadarshini Sahu</h1>
+        <p>Registration Number: Your Reg Number</p>
+        <p>University: Your University Name</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#experiment1">Experiment 1</a></li>
+            <li><a href="#experiment2">Experiment 2</a></li>
+            <li><a href="#experiment3">Experiment 3</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="experiment-card" id="experiment1">
+            <h2>Experiment 1</h2>
+            <p>Description of the first experiment goes here.</p>
+            <a href="experiment1.pdf" target="_blank">Download PDF</a>
+        </section>
+        <section class="experiment-card" id="experiment2">
+            <h2>Experiment 2</h2>
+            <p>Description of the second experiment goes here.</p>
+            <a href="experiment2.pdf" target="_blank">Download PDF</a>
+        </section>
+        <section class="experiment-card" id="experiment3">
+            <h2>Experiment 3</h2>
+            <p>Description of the third experiment goes here.</p>
+            <a href="experiment3.pdf" target="_blank">Download PDF</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Subhashree Priyadarshini Sahu</p>
+    </footer>
+</body>
 </html>
